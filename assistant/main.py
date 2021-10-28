@@ -35,7 +35,7 @@ def take_command():
     return command
 
 
-def run_verma():
+def run():
     command = take_command()
     if 'play' in command:
         song = command.replace('play', '')
@@ -69,4 +69,4 @@ def run_verma():
 
 
 while True:
-    run_verma()
+    run()
