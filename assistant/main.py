@@ -56,7 +56,7 @@ def run_verma():
         print(info)
         talk(info)
     elif 'who are you' in command:
-        talk("Virtual assistant created by Devansh Verma in 2021 by using python 3.9.1 on pycharm 2020.2 Plateform...")
+        talk("Virtual assistant created by xyz in 2021 by using python 3.9.1 on pycharm 2020.2 Plateform...")
         talk("I am able to tell the current time,simple jokes,famous personalities,places and play vedios on youtube")
         talk("thankyou")
     elif 'joke' in command:
