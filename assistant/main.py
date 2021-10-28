@@ -62,7 +62,7 @@ def run_verma():
     elif 'joke' in command:
         talk(pj.get_joke())
     elif 'sorry' in command:
-        talk("you are really so dumb.....")
+        talk("its ok")
     else:
         talk("what next ! waiting ... otherwise showing error....")
         # talk("sorry!! can you say again...")
